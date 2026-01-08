@@ -19,10 +19,10 @@ logger = logging.getLogger()
 logger.setLevel("INFO")
 
 # Environment variables
-EICR_INPUT_PREFIX = os.environ.get("EICR_Input_Prefix", "eCRMessageV2/")
-REFINER_INPUT_PREFIX = os.environ.get("Refiner_Input_Prefix", "RefinerInput/")
-REFINER_OUTPUT_PREFIX = os.environ.get("Refiner_Output_Prefix", "RefinerOutput/")
-REFINER_COMPLETE_PREFIX = os.environ.get("Refiner_Complete_Prefix", "RefinerComplete/")
+EICR_INPUT_PREFIX = os.environ.get("EICR_INPUT_PREFIX", "eCRMessageV2/")
+REFINER_INPUT_PREFIX = os.environ.get("REFINER_INPUT_PREFIX", "RefinerInput/")
+REFINER_OUTPUT_PREFIX = os.environ.get("REFINER_OUTPUT_PREFIX", "RefinerOutput/")
+REFINER_COMPLETE_PREFIX = os.environ.get("REFINER_COMPLETE_PREFIX", "RefinerComplete/")
 
 
 class RefinerCompleteFile(TypedDict):
